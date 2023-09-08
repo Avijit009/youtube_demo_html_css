@@ -1,0 +1,125 @@
+.subs{
+    background-color: rgb(190, 4, 4);
+    padding: 10px 15px 10px 15px;
+    margin-right: 10px;
+    color: white;
+    border-style: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+.subs:hover{
+    opacity: 0.6;
+}
+
+.subs:active{
+    opacity: .3;
+}
+
+.join{
+    background-color: white;
+    padding: 8px 12px 8px 12px;
+    margin-right: 10px;
+    color: rgb(6, 95, 212);
+    border-color: rgb(6, 95, 212);
+    border-style: solid;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.join:hover{
+    background-color: rgb(6, 95, 212);
+    color: white;
+}
+
+.join:active{
+    opacity: .7;
+}
+
+.twitter{
+    background-color: rgb(29, 155, 240);
+    padding: 8px 12px 8px 12px;
+    color: white;
+    border-style: none;
+    border-radius: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: box-shadow 0.15s;
+}
+
+.twitter:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.15);
+}
+
+.req{
+    background-color: rgb(3, 3, 3);
+    padding: 8px 15px 8px 15px;
+    color: white;
+    border-style: none;
+    /* border-radius: 18px; */
+    cursor: pointer;
+}
+.cart{
+    background-color: rgb(241, 233, 77);
+    padding: 10px 45px 10px 45px;
+    color: rgb(75, 75, 75);
+    border-style: none;
+    border-radius: 18px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.sign{
+    background-color: rgb(101, 199, 128);
+    padding: 10px 15px 10px 15px;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.start{
+    background-color: rgb(129, 102, 206);
+    padding: 8px 12px 8px 12px;
+    color: white;
+    border-style: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.down{
+    background-color: white;
+    padding: 8px 12px 8px 12px;
+    color: rgb(108, 117, 125);
+    border-radius: 2px;
+    border-color: rgb(226, 226, 226);
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.apply{
+    background-color: rgb(72, 162, 252);
+    padding: 8px 15px 8px 15px;
+    color: white;
+    border-style: none;
+    border-radius: 18px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.save{
+    background-color: white;
+    padding: 8px 18px 8px 18px;
+    color: rgb(2, 158, 221);
+    border-radius: 18px;
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-weight: bold;
+}
